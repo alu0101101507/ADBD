@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0 (Edition std-1)" version="24.7.17">
   <diagram name="Página-1" id="2iP7uI-8HYH1rPYJdEYY">
-    <mxGraphModel dx="2142" dy="1225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="662" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,7 +70,7 @@
         <mxCell id="E_2snRqy3ZzRnRTIPqlY-33" value="Se agrupan" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1020" y="820" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="E_2snRqy3ZzRnRTIPqlY-37" value="Fabrica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E_2snRqy3ZzRnRTIPqlY-37" value="Laboratorio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E_2snRqy3ZzRnRTIPqlY-38" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="E_2snRqy3ZzRnRTIPqlY-33">
