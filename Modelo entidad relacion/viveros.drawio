@@ -254,6 +254,42 @@
             <mxPoint x="580" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="anIOv-3ZnQQNNAZr-zLw-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="anIOv-3ZnQQNNAZr-zLw-13" target="anIOv-3ZnQQNNAZr-zLw-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="690" as="sourcePoint" />
+            <mxPoint x="580" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anIOv-3ZnQQNNAZr-zLw-69" value="Codigo del pedido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="anIOv-3ZnQQNNAZr-zLw-70" value="Codigo del cliente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="anIOv-3ZnQQNNAZr-zLw-71" value="Fecha de ingreso" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="anIOv-3ZnQQNNAZr-zLw-72" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="anIOv-3ZnQQNNAZr-zLw-73" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anIOv-3ZnQQNNAZr-zLw-69" target="anIOv-3ZnQQNNAZr-zLw-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="970" as="sourcePoint" />
+            <mxPoint x="580" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anIOv-3ZnQQNNAZr-zLw-74" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anIOv-3ZnQQNNAZr-zLw-70" target="anIOv-3ZnQQNNAZr-zLw-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="770" as="sourcePoint" />
+            <mxPoint x="500" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anIOv-3ZnQQNNAZr-zLw-75" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="anIOv-3ZnQQNNAZr-zLw-71" target="anIOv-3ZnQQNNAZr-zLw-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="860" as="sourcePoint" />
+            <mxPoint x="500" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
