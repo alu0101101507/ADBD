@@ -31,7 +31,7 @@ Nombre : Jose Miguel Hernández Santana, alu: alu0101101507
     - Nombre: Nombre del empleado
     - Historial: Productividad historica del empleado
 
-## Pedido (relacion)
+## Pedido 
   - Descripcion: Representa las ordenes de compra a realizar por los clientes
   - Atributos:
     - ID: Identificador unico del pedido
