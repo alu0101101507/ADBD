@@ -3,7 +3,7 @@
 ## Identifique tablas, vistas y secuencias 
 Las tablas, vistas y secuencias con las que cuenta la base de datos son las siguientes:
 
-![Tablas](.\img\Tablas y secuencias.png)
+![Tablas](\img\Tablas y secuencias.png)
 
 En ella podemos ver principalmente informacion por una parte de las peliculas, como los actores, las categorias a las que pertenece una pelicula,
 informacion de la pelicula en si como el titulo, el año de salida, etc.
