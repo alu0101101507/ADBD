@@ -113,8 +113,7 @@ Las tablas principales de la base de datos son las siguientes:
   
 ## Vistas con las consultas del apartado 4
   Las consultas pedidas para realizar y despues crear las vistas eran las siguientes:
-
-    - a) Obtenga las ventas totales por categoría de películas ordenadas descendentemente.
+    - a Obtenga las ventas totales por categoría de películas ordenadas descendentemente.
 
       ``` 
       CREATE VIEW public.view_1 AS 
@@ -134,7 +133,7 @@ Las tablas principales de la base de datos son las siguientes:
 
       ![view_1](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/view1.png)
 
-    - b) Obtenga las ventas totales por tienda, donde se refleje la ciudad, el país (concatenar la ciudad y el país empleando como separador la “,”), y el encargado.
+    - b Obtenga las ventas totales por tienda, donde se refleje la ciudad, el país (concatenar la ciudad y el país empleando como separador la “,”), y el encargado.
 
     ```sql
     CREATE VIEW public.view_2 AS
@@ -156,7 +155,7 @@ Las tablas principales de la base de datos son las siguientes:
 
     ![view_2](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/view2.png)
 
-    - c) Obtenga una lista de películas, donde se reflejen el identificador, el título, descripción, categoría, el precio, la duración de la película, clasificación, nombre y apellidos de los actores (puede realizar una concatenación de ambos)
+    - c Obtenga una lista de películas, donde se reflejen el identificador, el título, descripción, categoría, el precio, la duración de la película, clasificación, nombre y apellidos de los actores (puede realizar una concatenación de ambos)
 
     ```sql
     CREATE VIEW public.view_3 AS
@@ -180,7 +179,7 @@ Las tablas principales de la base de datos son las siguientes:
 
     ![view_3](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/view3.png)
 
-    - d) Obtenga la información de los actores, donde se incluya sus nombres y apellidos, las categorías y sus películas. Los actores deben de estar agrupados y, las categorías y las películas deben estar concatenados por “:” 
+    - d Obtenga la información de los actores, donde se incluya sus nombres y apellidos, las categorías y sus películas. Los actores deben de estar agrupados y, las categorías y las películas deben estar concatenados por “:” 
 
     ```sql
     CREATE VIEW public.view_4 AS
