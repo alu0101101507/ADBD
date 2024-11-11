@@ -116,7 +116,7 @@ Las tablas principales de la base de datos son las siguientes:
 
     - a) Obtenga las ventas totales por categoría de películas ordenadas descendentemente.
 
-      ``` sql
+      ``` 
       CREATE VIEW public.view_1 AS 
         SELECT category.name AS category,
           SUM(payment.amount) AS ventas_totales     
