@@ -3,7 +3,7 @@
 ## Identifique tablas, vistas y secuencias 
 Las tablas, vistas y secuencias con las que cuenta la base de datos son las siguientes:
 
-![Tablas](\img\Tablas y secuencias.png)
+![Tablas](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/Tablas%20y%20secuencias.png)
 
 En ella podemos ver principalmente informacion por una parte de las peliculas, como los actores, las categorias a las que pertenece una pelicula,
 informacion de la pelicula en si como el titulo, el año de salida, etc.
@@ -114,7 +114,7 @@ Las tablas principales de la base de datos son las siguientes:
 ## Vistas con las consultas del apartado 4
   Las consultas pedidas para realizar y despues crear las vistas eran las siguientes:
     - Obtenga las ventas totales por categoría de películas ordenadas descendentemente.
-      ```sql
+      ```
       CREATE VIEW public.view_1 AS 
         SELECT category.name AS category,
           SUM(payment.amount) AS ventas_totales     
