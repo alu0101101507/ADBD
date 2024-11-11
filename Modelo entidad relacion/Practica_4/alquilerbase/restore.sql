@@ -577,7 +577,7 @@ CREATE TABLE public.film (
     -- Check restritcions
     CONSTRAINT chk_film_rental_rate CHECK (rental_rate > 0 AND rental_rate < 50),
     CONSTRAINT chk_film_replacement_cost CHECK (replacement_cost > 0 AND replacement_cost < 1000),
-    CONSTRAINT chk_film_length CHECK (length >= 1 AND length <= 300)
+    CONSTRAINT chk_film_length CHECK (length >= 1)
 );
 
 
@@ -761,7 +761,6 @@ CREATE TABLE public.staff (
     last_update timestamp without time zone DEFAULT now() NOT NULL,
     picture bytea,
     -- CHeck restrictions
-    CONSTRAINT chk_staff_active CHECK (active IN (true, false)),
     CONSTRAINT chk_staff_username CHECK (char_length(username) BETWEEN 0 AND 16)
 );
 
