@@ -132,7 +132,7 @@ Las tablas principales de la base de datos son las siguientes:
 
       Lo que nos permite ver esto:
 
-      ![view_1]()
+      ![view_1](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/view1.png)
 
     - b) Obtenga las ventas totales por tienda, donde se refleje la ciudad, el país (concatenar la ciudad y el país empleando como separador la “,”), y el encargado.
 
@@ -154,7 +154,7 @@ Las tablas principales de la base de datos son las siguientes:
 
     Lo que nos permite ver la siguiente vista:
 
-    ![view_2]()
+    ![view_2](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/view2.png)
 
     - c) Obtenga una lista de películas, donde se reflejen el identificador, el título, descripción, categoría, el precio, la duración de la película, clasificación, nombre y apellidos de los actores (puede realizar una concatenación de ambos)
 
@@ -178,7 +178,7 @@ Las tablas principales de la base de datos son las siguientes:
 
     Lo que nos permite ver la siguiente vista:
 
-    ![view_3]()
+    ![view_3](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/view3.png)
 
     - d) Obtenga la información de los actores, donde se incluya sus nombres y apellidos, las categorías y sus películas. Los actores deben de estar agrupados y, las categorías y las películas deben estar concatenados por “:” 
 
@@ -198,7 +198,7 @@ Las tablas principales de la base de datos son las siguientes:
 
     Lo que nos permite ver la siguiente vista:
 
-    ![view_4]() 
+    ![view_4](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/view4.png) 
 
   ## Restricciones CHECK en el modelo
     Viendo el modelo he realizado las siguientes restricciones CHECk:
@@ -351,7 +351,7 @@ Las tablas principales de la base de datos son las siguientes:
 
         todo esto nos servira para que cuando insertemos en la tabla film una nueva pelicula se nos inserte en la nueva tabla creada el id y la fecha de introduccion de la misma en la tabla film:
 
-        ![trigger1]()
+        ![trigger1](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/trigger1.png)
 
         
       - Construya un disparador que guarde en una nueva tabla creada por usted la fecha de cuando se eliminó un registro en la tabla film y el identificador del film.
@@ -389,7 +389,7 @@ Las tablas principales de la base de datos son las siguientes:
 
         Ahora cuando querramos eliminar un registro de la tabla film guardaremos el id del film eliminado y tambien la fecha de eliminacion
 
-        ![trigger2]()
+        ![trigger2](https://github.com/alu0101101507/ADBD/blob/main/Modelo%20entidad%20relacion/Practica_4/img/trigger2.png)
 
   
   ## Comente el significado y la relevancia de las secuencias.
